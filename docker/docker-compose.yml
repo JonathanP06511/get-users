@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  get-users:
+   build: ../get-users
+   ports:
+     - 5020
+
+  
